@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		67E207751FC5FE9300B73428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E207741FC5FE9300B73428 /* AppDelegate.swift */; };
-		67E207771FC5FE9300B73428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E207761FC5FE9300B73428 /* ViewController.swift */; };
 		67E2077A1FC5FE9300B73428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E207781FC5FE9300B73428 /* Main.storyboard */; };
 		67E2077C1FC5FE9300B73428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E2077B1FC5FE9300B73428 /* Assets.xcassets */; };
 		67E2077F1FC5FE9300B73428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E2077D1FC5FE9300B73428 /* LaunchScreen.storyboard */; };
+		B1D015D91FE744D50083E69C /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D015D81FE744D50083E69C /* RecordSoundsViewController.swift */; };
+		B1D015DB1FE744E80083E69C /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D015DA1FE744E80083E69C /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		67E207711FC5FE9300B73428 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E207741FC5FE9300B73428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67E207761FC5FE9300B73428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67E207791FC5FE9300B73428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67E2077B1FC5FE9300B73428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E2077E1FC5FE9300B73428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67E207801FC5FE9300B73428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D015D81FE744D50083E69C /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		B1D015DA1FE744E80083E69C /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				67E207741FC5FE9300B73428 /* AppDelegate.swift */,
-				67E207761FC5FE9300B73428 /* ViewController.swift */,
 				67E207781FC5FE9300B73428 /* Main.storyboard */,
 				67E2077B1FC5FE9300B73428 /* Assets.xcassets */,
 				67E2077D1FC5FE9300B73428 /* LaunchScreen.storyboard */,
 				67E207801FC5FE9300B73428 /* Info.plist */,
+				B1D015D81FE744D50083E69C /* RecordSoundsViewController.swift */,
+				B1D015DA1FE744E80083E69C /* PlaySoundsViewController.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67E207771FC5FE9300B73428 /* ViewController.swift in Sources */,
+				B1D015D91FE744D50083E69C /* RecordSoundsViewController.swift in Sources */,
+				B1D015DB1FE744E80083E69C /* PlaySoundsViewController.swift in Sources */,
 				67E207751FC5FE9300B73428 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58YKL7WW5K;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigobertosaenz.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58YKL7WW5K;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigobertosaenz.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
