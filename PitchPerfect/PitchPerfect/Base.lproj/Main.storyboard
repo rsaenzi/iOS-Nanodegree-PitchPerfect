@@ -46,6 +46,14 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="owt-zT-AyE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Rl-Zt-TM0">
+                                <rect key="frame" x="84.5" y="632" width="206" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="https://www.linkedin.com/in/rsaenzi/"/>
+                                <connections>
+                                    <action selector="openProfile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="REl-Wf-4wz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -55,7 +63,9 @@
                             <constraint firstItem="eWr-N7-D6B" firstAttribute="top" secondItem="93F-JW-zbu" secondAttribute="bottom" constant="8" id="P3b-Hs-shX"/>
                             <constraint firstItem="WNp-Ft-NqM" firstAttribute="top" secondItem="eWr-N7-D6B" secondAttribute="bottom" constant="16" id="TG7-Z3-oAL"/>
                             <constraint firstItem="WNp-Ft-NqM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UxZ-FT-CSf"/>
+                            <constraint firstItem="6Rl-Zt-TM0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cjo-c3-NCa"/>
                             <constraint firstItem="93F-JW-zbu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ect-Lv-M9L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6Rl-Zt-TM0" secondAttribute="bottom" constant="8" id="zkE-1o-5qU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
